@@ -2,14 +2,14 @@
   "name": "bullswap",
   "description": "Bull Swap Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:bull/subgraphs.git",
+  "repository": "https://github.com/OfficialDevTeamSix/BullSwap-Subgraph",
   "author": "BullSwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
     "auth": "graph auth --product hosted-service 2ee38c8489af4d188ad74db05f466732",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ bull/swap subgraph.yaml"
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ officialdevteamsix/bullswap subgraph.yaml"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
