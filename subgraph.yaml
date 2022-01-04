@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: SymBull The Fastest Growing Crypto Community on Earth
-repository: https://github.com/OfficialDevTeamSix/SymBULL_BullSwap/tree/subgraph
+repository: https://github.com/OfficialDevTeamSix/BullSwap-Subgraph
 schema:
   file: ./schema.graphql
 dataSources:
