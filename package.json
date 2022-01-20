@@ -8,7 +8,7 @@
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "auth": "graph auth --product hosted-service 2ee38c8489af4d188ad74db05f466732",
+    "auth": "graph auth --product hosted-service 1b2a4f3c779a48bab22fdef0a250c430",
     "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ officialdevteamsix/bullswap subgraph.yaml"
   },
   "devDependencies": {
